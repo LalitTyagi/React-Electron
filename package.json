@@ -2,8 +2,8 @@
   "name": "electron-es6-react",
   "version": "0.1.0",
   "main": "main.js",
-  "license": "MIT",
-  "repository": "b52/electron-es6-react",
+  "license": "Tyagi",
+  "repository": "b52/React-Electron",
   "scripts": {
     "start": "electron -r babel-register .",
 	"dev": "node server.js"
