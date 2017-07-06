@@ -11,19 +11,31 @@ The renderer entry point index.html does basically the same, but loads the scrip
 Installation 
 
 git clone https://github.com/LalitTyagi/React-Electron.git
-cd electron-es6-react
+
+cd React-Electron
+
 npm install
+
 npm install jquery
 
+
+
 In package.json
+
 Add
-"jquery": "^2.1.4"
+
+"jquery": "^2.1.4" in "dependencies"
+
 And then save it. (for $ variable declaration )
 
 In main.jsx
+
 Address : ../view/main.jsx
-Declare $ variable as:  
+
+Declare $ variable as: 
+
 var $ = require('jquery');
+
 
 npm start
 
